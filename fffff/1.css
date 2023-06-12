@@ -1,0 +1,265 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: sticky; */
+    top: 0;
+    position:sticky;
+}
+
+.nav-list{
+    width: 71%;
+    /* background-color:black; */
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding:20px 36px;
+}
+
+.nav-list li a {
+    text-decoration:none ;    /*underline gone*/
+    color: white;
+}
+
+.nav-list li a :hover{
+    color: grey;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 80%;  
+    display: flex;
+    /* border: 3px solid white; */
+    /* border-radius: 50px; */
+}
+
+.rightNav{
+    width: 50%;
+    text-align:right;
+    /* background-color: blue; */
+    padding: 0 23px;
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    /* font-size: 18px; */
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #5b8e62;
+    color: white;
+}
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    
+}
+.background{
+    background: rgba(0, 0,0, 0.7) url(image/Food\ hub\ -\ Copy1.jpg);
+    background-size: cover;
+    /* background-blend-mode: darken; */
+
+}
+
+.firstSection{
+    height: 66vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 87%;
+    margin: auto;
+    height: 75%;
+}
+
+.firstHalf{
+    width: 130%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.secondHalf{
+    width: 30%;
+    justify-content: center;
+}
+
+.secondHalf img{
+    width: 70%;
+    /* padding: 4px 0; */
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.text-small{
+    font-size: 14px;
+    
+    margin: 1px;
+}
+
+
+.write{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    /* font-size: 18px; */
+    background: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.buttons{
+    padding: 9px 0px;
+    margin: 10px 0px;
+    background: none;
+    font-size: 25px;
+    font-family: cursive;
+    
+}
+.categories{
+    height: 80%;
+    max-width: 25%;
+    background: black;
+    margin: 7px 3px;
+    padding: 8px;
+    color: rgb(9 244 204 / 93%);
+    font-style: oblique;
+    font-family: revert;
+    font-size: x-large;
+    border: 2px solid #dcd7d7;
+    border-radius: 36px;
+    cursor: pointer;
+}
+
+.categories:hover{
+    background-color: #dcd7d7;
+    color: rgb(18, 18, 18);
+}
+
+.search{
+    height: 80%;
+    max-width: 25%;
+    background: none;
+    margin: 7px 3px;
+    padding: 8px;
+    color: rgb(180 79 138);
+    font-style: oblique;
+    font-family: revert;
+    font-size: x-large;
+    border: 3px solid #d3bcbc;
+    border-radius: 36px;
+    cursor: pointer;
+}
+
+.search:hover{
+    background-color:#d3bcbc;
+    color: rgb(19, 19, 19);
+}
+
+.menu{
+    text-align: center;
+    padding: 28px;
+    font-size: xx-large;
+    font-family:cursive;
+}
+
+.SecondSection{
+    background-color: rgb(155 181 147);
+}
+.section{
+    height: 500px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    max-width:100%;
+    /* max-width:65%; */
+    margin:auto;
+    font-family: 'ubuntu',sans-serif;
+}
+
+.thumbnail{
+    width: 88%;
+    height:128%;
+    overflow:visible;
+    padding: 0px 0px;
+    margin: 0%;
+    /* margin-left: 20px; */
+}
+
+.imgFluid{
+    width: 341px;
+    padding: 0px 0px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+    size: 12px;
+    cursor: pointer;
+}
+
+/* .imgFluid{
+    width: 90%;
+    padding: 4px 0;
+    border:5px solid;
+    border-radius: 250px;
+    display: block;
+    margin: auto;
+} */
+
+.More{
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.view{
+    border: 3px solid #cd8b8b;
+    font-size: x-large;
+    font-family: inherit;
+    border-radius: 36px;
+    background: none;
+    cursor: pointer;
+    padding: 6px;
+    margin-bottom: 20px;
+    margin-top: 16px;
+}
+
+.view:hover{
+    background-color: #cd8b8b;
+    color: white;
+}
